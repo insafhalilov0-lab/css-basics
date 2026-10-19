@@ -1,0 +1,73 @@
+body {
+    color: red;
+}
+.main-text {
+    color: blue;
+}
+#unique {
+    color: yellow;
+}
+div b, div i {
+    color: green;
+}
+.link {
+    color: red;
+    text-decoration: none;
+}
+.link:hover {
+   color: blue;
+   text-decoration: overline;
+   cursor: pointer;
+}
+#visited-link {
+    color: brown;
+    text-decoration: none;
+}
+#visited-link:visited {
+color: turquoise;
+}
+input {
+    color: green;
+}
+input:focus {
+    color: red;
+}
+p.empty-text:not(:empty) {
+    color: aquamarine;
+}
+#box::before {
+content: '225';
+color: blueviolet;
+}
+#box::after {
+    content: '123';
+    color: orange;
+}
+.quote::after {
+    content: attr(title);
+}
+.long-text::first-letter {
+    color: green;
+}
+.long-text::first-line {
+    color: blueviolet;
+}
+p:first-of-type {
+    text-decoration: line-through;
+}
+p:last-of-type {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
